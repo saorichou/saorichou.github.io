@@ -1,0 +1,364 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tiny {
+    background: url(../img/lego.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.tiny p {
+    text-shadow: 1px 2px 1px black;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    border: 3px dashed white;
+    border-color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 20px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.den {
+    background: black;
+    color: white;
+    height: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+.den nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.den nav ul li a {
+    text-decoration: none;
+    color: white
+}
+
+.den nav ul li a:hover {
+    color: black;
+    background: white;
+    background-color: transparent;
+}
+
+.den img {
+    padding: 0 50px
+}
+
+.yeugiay {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 90px;
+}
+
+.yeugiay h1:before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: black;
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 110px
+}
+
+.yeugiay p {
+    padding: 50px 100px 0 100px;
+    color: grey;
+    font-size: 18px
+}
+
+.thugiay {
+    position: relative;
+    background: black;
+}
+
+.thugiay p {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: grey;
+}
+
+.thugiay img {
+    margin: 30px auto;
+}
+
+.phailong {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.phailong p:before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: black;
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px
+}
+
+.phailong p {
+    padding: 50px 200px 0 200px;
+    color: grey;
+    font-size: 18px
+}
+
+.sanpham {
+    background: black;
+    min-height: 80vh;
+}
+
+.sanpham .do {
+    min-height: 10vh;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transform: all .5s ease-in-out;
+    margin-top: 30px;
+    margin-left: 250px;
+    position: relative;
+}
+
+#do:before {
+    content: '';
+    display: block;
+    height: 200px;
+    background: rgba(128, 128, 128, 0.404);
+    width: 800px;
+    margin-left: -250px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.sanpham .do:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    position: relative;
+}
+
+.sanpham .tim {
+    min-height: 10vh;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transform: all .5s ease-in-out;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+#tim:before {
+    content: '';
+    display: block;
+    height: 250px;
+    background: rgba(128, 128, 128, 0.404);
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.sanpham .tim:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    position: relative;
+}
+
+.sanpham .vang {
+    min-height: 10vh;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transform: all .5s ease-in-out;
+    margin-top: -60px;
+    margin-left: 50px;
+}
+
+#vang:before {
+    content: '';
+    display: block;
+    height: 350px;
+    background: rgba(128, 128, 128, 0.404);
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -90px;
+    position: absolute;
+}
+
+.sanpham .vang:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    position: relative;
+}
+
+.sanpham .trang {
+    min-height: 10vh;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transform: all .5s ease-in-out;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+#trang:before {
+    content: '';
+    display: block;
+    height: 70px;
+    background: rgba(128, 128, 128, 0.404);
+    width: 550px;
+    margin-left: 30px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+.sanpham .trang:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    position: relative;
+}
+
+.sanpham .dodo {
+    min-height: 10vh;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transform: all .5s ease-in-out;
+    margin-top: 50px;
+    margin-left: 150px;
+    position: relative;
+}
+
+#dodo:before {
+    content: '';
+    display: block;
+    height: 150px;
+    background: rgba(128, 128, 128, 0.404);
+    width: 150px;
+    margin-left: 210px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.sanpham .dodo:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    position: relative;
+}
+
+#nut {
+    color: white;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 280px;
+    margin-top: 60px;
+    padding: 1rem 4rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#nut:hover {
+    background: rgba(128, 128, 128, 0.432);
+    border: 1px dashed grey
+}
+
+.anh {
+    background: white;
+    height: 40vh;
+    position: relative;
+    display: block;
+}
+
+.anh img {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.lienhe {
+    background: black;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.lienhe h2 {
+    color: grey;
+    left: 10px;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.lienhe i {
+    color: grey;
+    margin: 5px auto;
+}
+
+.lienhe a {
+    font-size: 48px;
+    color: white;
+    margin-top: 50px
+}
+
+.lienhe a:hover {
+    -moz-transform: scale(1.5) rotate(0deg);
+    -webkit-transform: scale(1.5) rotate(0deg);
+}
+
+#copyright {
+    margin-top: 50px
+}
+
+.shop.hinh {
+    position: relative;
+    position: initial;
+    height: 500px;
+    border: 3px solid rgb(114, 114, 114)
+}
+
+.shop .logo {
+    position: absolute;
+    left: 30px;
+    top: 0.5rem;
+}
+
+.shop .giay {
+    position: absolute;
+    bottom: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 335px;
+}
+
+.shop h4 {
+    color: red;
+    margin: 10px
+}
+
+.shop h5 {
+    margin: 10px
+}
+
+.shop h6 {
+    margin: 10px
+}
+
+.shop .nut {
+    background: rgba(184, 184, 184, 0.438);
+    position: absolute;
+    bottom: 50px;
+    right: 1rem;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 80px
+}
